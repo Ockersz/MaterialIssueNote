@@ -1,0 +1,36 @@
+name: mri
+description: "Material Issue Note is a mobile application that allows users to enter material issue notes to the System"
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  google_fonts: ^6.2.1
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  http: ^1.1.2
+  internet_connection_checker: ^1.0.0+1
+  intl: ^0.19.0
+  qr_bar_code_scanner_dialog: ^0.0.5
+  search_choices: ^2.2.11
+  connectivity_plus: ^6.1.0
+  flutter_dotenv: ^5.0.2
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  hive_generator: ^1.1.0
+  build_runner: ^2.1.2
+  flutter_lints: ^3.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/.env
